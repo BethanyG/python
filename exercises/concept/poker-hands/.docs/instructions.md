@@ -26,7 +26,7 @@ Implement a function `concatenate_lists` that takes two lists and returns a sing
 [27, 28, 29, 35, 36]
 ```
 
-## 4. Testing List Membership
+## 3. Testing List Membership
 
 Talking about prior hands, someone remarks how similar two hands played out. Elyse is not sure if she played those hands.
 
@@ -40,9 +40,9 @@ True
 False
 ```
 
-## 3. Iterating Over List Items
+## 4. Iterating Over List Items
 
-Elyse likes analyzing data and seeing what can be done with them. One very basic way to summary a list of numbers if with the average. The average can be found by summing up all the values and the number of values then dividing the sum by the count.
+Elyse wants to try out a new game called Black Jack. It is similar to Black Jack, where your goal is to have your hand add up to a target ... but instead of looking at the total sum, the goal is to get the average to add up to 7. The average can be found by summing up all the values and the number of values then dividing the sum by the count.
 
 Implement a function `average` that returns the average value of a list of numbers.
 
@@ -51,9 +51,9 @@ Implement a function `average` that returns the average value of a list of numbe
 6.0
 ```
 
-## 4. Accessing List Elements by Index
+## 5. Accessing List Elements by Index
 
-Elyse realizes she can very roughly get an average-like number by taking the average of the first and last number or by taking the middle number (the median). Would either of those happen to give the same number as the average?
+In Black Joe, speed is important. Elyse realizes she can very roughly get an average-like number by taking the average of the first and last number or by taking the middle number (the median). Would either of those happen to give the same number as the average?
 
 Implement a function `approx_average_is_average` that returns a boolean, indicating if either approximation is the same as the average. For the sake of a simple median, assume the list always has an odd number of values.
 
@@ -68,7 +68,7 @@ True
 False
 ```
 
-## 5. Accessing Sublists by Slicing
+## 6. Accessing Sublists by Slicing
 
 Intrigued by these results, Elyse is wondering if taking the average of even elements versus the average of odd elements would give the same results.
 
