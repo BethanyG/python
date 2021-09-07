@@ -1,9 +1,9 @@
 def create_inventory(items):
-    '''
+    """
 
     :param items: list - list of items to create an inventory from.
     :return:  dict - the inventory dictionary.
-    '''
+    """
 
     inventory = dict()
     add_items(inventory, items)
@@ -11,12 +11,12 @@ def create_inventory(items):
 
 
 def add_items(inventory, items):
-    '''
+    """
 
     :param inventory: dict - dictionary of existing inventory.
     :param items: list - list of items to update the inventory with.
     :return:  dict - the inventory dictionary update with the new items.
-    '''
+    """
 
     for item in items:
         inventory.setdefault(item, 0)
@@ -52,11 +52,11 @@ def remove_item(inventory, item):
 
 
 def list_inventory(inventory):
-    '''
+    """
 
     :param inventory: dict - an inventory dictionary.
     :return: list of tuples - list of key, value pairs from the inventory dictionary.
-    '''
+    """
 
     output = list()
     for item in sorted(inventory.items()):

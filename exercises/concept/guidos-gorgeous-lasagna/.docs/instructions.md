@@ -49,8 +49,10 @@ Go back through the recipe, adding notes and documentation.
 
 ```python
 def total_time_in_minutes(number_of_layers, actual_bake_time):
-    '''Return elapsed cooking time.
+    """
+    Return elapsed cooking time.
 
-    This function takes two numbers representing the number of layers & the time already spent baking and calculates the total elapsed minutes spent cooking the lasagna.
-'''
+    This function takes two numbers representing the number of layers & the time already spent 
+    baking and calculates the total elapsed minutes spent cooking the lasagna.
+    """
 ```
