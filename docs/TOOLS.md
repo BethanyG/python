@@ -80,6 +80,12 @@ Reference: [Wiki](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
 The `virtualenvwrapper` module manages all your virtual environments in one place. You can create, copy, delete and switch between environments using the tools the module provides. It also allows you to add additional tools using extensions. You can create your own extension using the tutorial found [here](https://virtualenvwrapper.readthedocs.io/en/latest/plugins.html#plugins).
 
+#### Virtual Environment wrapper
+
+Reference: [Wiki](https://virtualenvwrapper.readthedocs.io/en/latest/)
+
+The `virtualenvwrapper` module manages all your virtual environments in one place. You can create, copy, delete and switch between environments using the tools the module provides. It also allows for extensions so you can add tools you'd like. You can create your own extension using the tutorial found [here](https://virtualenvwrapper.readthedocs.io/en/latest/plugins.html#plugins).
+
 ### Conda
 
 *Latest download can be found [here](https://www.anaconda.com/products/individual)*
