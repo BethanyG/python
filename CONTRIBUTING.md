@@ -20,21 +20,21 @@ This repo holds all the instructions, tests, code, & support files for Python *e
 Exercises are grouped into **concept** exercises which teach the [Python syllabus][python-syllabus], and **practice** exercises, which are unlocked by progressing in the syllabus tree &nbsp;🌴 &nbsp;. Concept exercises are constrained to a small set of language or syntax features. Practice exercises are open-ended, and can be used to practice concepts learned, try out new techniques, and _play_.  These two exercise groupings can be found in the track [config.json][config-json], and under the `python/exercises` directory.
 
 If you have not already done so, please take a moment to read our 🌟🌟&nbsp; [Code of Conduct][exercism-code-of-conduct].&nbsp;🌟🌟&nbsp;  
-It might also be helpful to look at [Being a Good Community Member][being-a-good-community-member] & [The words that we use][the-words-that-we-use], and [Pull Requests][prs].
+It might also be helpful to look at [Being a Good Community Member][being-a-good-community-member], [The words that we use][the-words-that-we-use], and [Pull Requests][prs].
 
 Some defined roles in our community:  [Contributors][exercism-contributors] **|** [Mentors][exercism-mentors] **|** [Maintainers][exercism-track-maintainers]  **|** [Admins][exercism-admins]
 
 <br>
 <img align="left" width="85" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/building-telemetry.svg">
-<p vertical-align="middle"><h2>Want to jump directly to general specifications & detail?</h2></p>
+<p vertical-align="middle"><h2>Want to jump to general specifications & detail?</h2></p>
 <br>
 
- **On GitHub :octocat:: ** [Track structure][exercism-track-structure] **|** [Concepts][exercism-concepts] **|** [Concept Exercises][concept-exercises] **|** [Practice Exercises][practice-exercises]  
+ :octocat: **On GitHub:** [Track structure][exercism-track-structure] **|** [Concepts][exercism-concepts] **|** [Concept Exercises][concept-exercises] **|** [Practice Exercises][practice-exercises] **|** [Stories][exercism-stories] **|** [Exercise Icons][exercism-icons]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Presentation][exercise-presentation]  **|** [Writing Style Guide][exercism-writing-style] **|** [Markdown Specification][exercism-markdown-specification] **|** [Tasks][exercism-tasks] **|** [Reputation][exercism-reputation]
 
 <br>
 
-🌐&nbsp;[Track structure][web-track-structure] **|** [Concepts][web-concepts] **|** [Concept Exercises][web-concept-exercises] **|** [Practice Exercises][web-practice-exercises]  
+🌐&nbsp;**On exercism.org:**[Track structure][web-track-structure] **|** [Concepts][web-concepts] **|** [Concept Exercises][web-concept-exercises] **|** [Practice Exercises][web-practice-exercises] **|** [Stories][web-stories]**|** [Exercise Icons][web-icons]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Presentation][web-exercise-presentation] **|** [Writing Style Guide][web-writing-style] **|** [Markdown Specification][web-markdown-specification] **|** [Tasks][web-tasks] **|** [Reputation][web-reputation]
 
 <br>
@@ -65,10 +65,12 @@ Please&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what
 
 **We Warmly 💛 💙 Welcome Pull Requests that are:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1️⃣ &nbsp;&nbsp;&nbsp;&nbsp; Small, contained fixes for typos/grammar/punctuation/code syntax on [one] exercise,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1️⃣ &nbsp;&nbsp;&nbsp;&nbsp; Small, contained fixes for typos/grammar/punctuation/code syntax on **`[one]`** exercise,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2️⃣ &nbsp;&nbsp;&nbsp;&nbsp; Medium changes that have been agreed/discussed via a filed issue,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Contributions from our [help wanted][help-wanted] issue list,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Larger (_and previously agreed-upon_) contributions from recent & regular (_within the last 6 months_) contributors.
+
+When in doubt,&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;...but we should talk before you take a whole lot of time or energy implementing anything. 🐍
 
 <br>
 <img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/hello-world.svg">
@@ -80,9 +82,9 @@ Please make sure to have a quick review of our Exercism [Pull Requests][prs] doc
 
 
 The Python track maintainers are happy to review your work and help troubleshoot with you.&nbsp;💛&nbsp;💙&nbsp;
-Issues, requests and PRs in the repo are reviewed as soon as is practical/possible. Remember that those responding may be in a different timezone or tied up with other tasks, so **please wait at least 72 hours before pinging.**
+Issues, requests and PRs in the repo are reviewed as soon as is practical/possible. Remember that those responding may be in a different timezone or tied up with other tasks, so **please wait at least 72 hours before 🔔 pinging.**
 
-- PRs should focus on a single exercise, issue, or change, unless you've discussed something different ahead of time with maintainers.
+- PRs should focus on a single exercise, issue, or change unless you've discussed it ahead of time with maintainers.
 - Titles & descriptions should make clear **what** has changed & **why**. Please [link][closing-words] &nbsp;🔗&nbsp;any related issues.
 - If you need help, comment in the PR or issue.&nbsp; 🙋🏽‍♀️ &nbsp;
 - If you would like in-progress feedback/discussion, please mark your PR as a **`[draft]`**. Add a note about any areas you would like reviewers to focus on.
@@ -132,7 +134,7 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
 - Classes should be named in `TitleCase` (_aka "camel case"_)
 - **No single letter variable names** outside of a `lambda`.  This includes loop variables and comprehensions.
 - Refrain from putting `list`, `tuple`, `set`, or `dict` members on their own lines.
-  Fit as many data members as can be easily read on one line, before wrapping to a second.
+- Fit as many data members as can be easily read on one line, before wrapping to a second.
 - If a data structure spreads to more than one line and a break (_for clarity_) is needed, prefer breaking after the opening bracket.
 - Avoid putting closing brackets on their own lines. Prefer closing a bracket right after the last element.
 - Use **`'`** and not **`"`** as the quote character by default.
@@ -157,6 +159,7 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
 - [Unittest.TestCase][unittest] syntax, with [PyTest][pytest] as a test runner.
   - We are transitioning to using more PyTest features/syntax, but are leaving `Unittest` syntax in place where possible.
   - Always check with a maintainer before introducing a PyTest feature into your tests.
+
 - Test **Classes** should be titled `<ExerciseSlug>Test`. **e.g.** `class CardGamesTest(unittest.TestCase):`
 - Test method names should begin with `test_`.  Try to make test case names descriptive but not too long.
 - Favor [_parameterizing_][distinguishing-test-iterations] tests that only vary input data. Use [unittest.TestCase.subTest][subtest] for parameterization.
@@ -186,7 +189,6 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
     </table>
     <br>
  </details>
- <br>
  <details>
     <summary>⚠️&nbsp;&nbsp;<b><em>Pre-Commit Checklist</b>&nbsp⚠️ (click to expand)</em>️</summary>
     <br>
@@ -486,3 +488,7 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 [web-markdown-specification]: https://exercism.org/docs/building/markdown/markdown
 [web-tasks]: https://exercism.org/docs/building/product/tasks
 [web-reputation]: https://exercism.org/docs/using/product/reputation
+[exercism-stories]: https://github.com/exercism/docs/tree/main/building/tracks/stories
+[exercism-icons]: https://github.com/exercism/website-icons/tree/main/exercises
+[web-stories]: https://exercism.org/docs/building/tracks/stories
+[web-icons]: https://exercism.org/docs/building/tracks/icons
