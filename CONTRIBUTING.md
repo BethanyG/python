@@ -13,8 +13,9 @@ Thank you so much for your interest in contributing!
 **`exercsim/Python`** is one of many programming language tracks on [exercism(dot)org][exercism-website].
 This repo holds all the instructions, tests, code, & support files for Python *exercises* currently under development or implemented & available for students.
 
- 🌟 &nbsp;&nbsp;Track exercises support Python `3.8`.  
- 🌟 &nbsp;&nbsp;Track tooling (_test-runner, representer, analyzer, and Continuous Integration_) runs on Python `3.9`.
+ 🌟 &nbsp;&nbsp;Track exercises support Python `3.9` syntax & earlier (_Python`2.x` is [deprecated][python2-sunset]_).  
+ 🌟 &nbsp;&nbsp;Python `3.10` can be used to solve exercises, but features [new in `3.10`][new-in-3.10] are not supported.  
+ 🌟 &nbsp;&nbsp;Track tooling (_test-runner, representer, analyzer, and CI_) runs on Python `3.9`.
 
 Exercises are grouped into **concept** exercises which teach the [Python syllabus][python-syllabus], and **practice** exercises, which are unlocked by progressing in the syllabus tree &nbsp;🌴 &nbsp;. Concept exercises are constrained to a small set of language or syntax features. Practice exercises are open-ended, and can be used to practice concepts learned, try out new techniques, and _play_.  These two exercise groupings can be found in the track [config.json][config-json], and under the `python/exercises` directory.
 
@@ -35,19 +36,28 @@ Some defined roles in our community:  [Contributors][exercism-contributors] **|*
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Writing Style Guide][exercism-writing-style] **|** [Markdown Specification][exercism-markdown-specification] (_&nbsp;✨ &nbsp; versions available in [contributing][website-contributing-section] on [exercism(dot)org][exercism-website]._)
 
 <br>
+<img align="left" width="85" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/robot-name.svg">
 
-## 🐛 **Did you find a bug?**
+🔍&nbsp;**_Looking for track tools and scripts?_**  
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<br>
+
+<img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/accuulate.svg">
+<p vertical-align="middle"><h2>Did you find a bug?</h2></p>
+<br>
 
 It is not uncommon to discover typos, confusing directions, or incorrect implementations of certain tests or code examples.  Or you might have a great suggestion for a hint to aid students (&nbsp;💙 &nbsp;), see optimizations for exemplar or test code, find missing test cases to add, or want to correct factual and/or logical errors.  Or maybe you have a great idea for an exercise or feature (❗&nbsp;).
 
-_Our track is always a work in progress!_ 🌟🌟  
+_**Our track is always a work in progress!**_  
 Please&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what you have found/suggest.
 
 <br>
 
-## 🚧  **Did you write a patch that fixes a bug?**
-_Before you get started, please review [Pull Requests][prs]._
-
+<img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/authentication-system.svg">
+<p vertical-align="middle"><h2>Did you write a patch that fixes a bug?</h2></p>
+<br>
 
  💛 💙&nbsp; **We Warmly Welcome Pull Requests that are:**
 
@@ -56,7 +66,7 @@ _Before you get started, please review [Pull Requests][prs]._
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Contributions from our [help wanted][help-wanted] issue list,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Larger (_and previously agreed-upon_) contributions from recent & regular (_within the last 6 months_) contributors.
 
-When in doubt,&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;. We will happily discuss your proposed change.  
+When in doubt,&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;. We will happily discuss your proposed change.  
 🐍 &nbsp;_But we should talk before you take a whole lot of time or energy implementing anything._
 
 <br>
@@ -64,55 +74,22 @@ When in doubt,&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;. We wil
 <p vertical-align="middle"><h2>In General</h2></p>
 <br>
 
-- Please make sure to have a quick read-through of our Exercism [Pull Requests][prs] document before jumping in.&nbsp;😅
-- Maintainers are happy to review your work and help troubleshoot with you.&nbsp;💛&nbsp;💙&nbsp;
-  - Requests are reviewed as soon as is practical/possible.
-  - (❗&nbsp;) Reviewers may be in a different timezone&nbsp;⌚&nbsp;, or tied up &nbsp;🧶&nbsp; with other tasks.
-  - **Please wait at least 72 hours before pinging.**
-- If you need help, comment in the Pull Request/issue.&nbsp; 🙋🏽‍♀️ &nbsp;
-- If you would like in-progress feedback/discussion, please mark your Pull Request as a **`[draft]`**
-- Pull Requests should be focused around a single exercise, issue, or change.
-- Pull Request titles and descriptions should make clear **what** has changed and **why**.
-  - Please link &nbsp;🔗&nbsp; to any related issues the PR addresses.
-- 📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp; and discuss it with &nbsp;🧰 &nbsp;maintainers _**before**_:
-  - creating a Pull Request making significant or breaking changes.
-  - for changes across multiple exercises, even if they are typos or small.
-  - anything that is going to require doing a lot of work (_on your part or the maintainers part_).
-- Follow coding standards found in [PEP8][PEP8] (["For Humans" version here][pep8-for-humans]).
+
+Please make sure to have a quick review of our Exercism [Pull Requests][prs] document before jumping in.&nbsp;😅
+
+
+The Python track maintainers are happy to review your work and help troubleshoot with you.&nbsp;💛&nbsp;💙&nbsp;
+Issues, requests and PRs in the repo are reviewed as soon as is practical/possible. Remember that those responding may be in a different timezone or tied up with other tasks, so **please wait at least 72 hours before pinging.**
+
+- Pull Requests should be focused around a single exercise, issue, or change, unless you've discussed something different ahead of time with maintainers.
+- PR titles & descriptions should make clear **what** has changed and **why**, and [should link][closing-words] &nbsp;🔗&nbsp; to any related issues the PR addresses.
+- Python code should follow the standards found in [PEP8][PEP8] (["For Humans" version here][pep8-for-humans]).
+- If you need help, comment in the PR/issue.&nbsp; 🙋🏽‍♀️ &nbsp;
+- If you would like in-progress feedback/discussion, please mark your Pull Request as a **`[draft]`**. Add a note about any areas you would like reviewers to focus on.
 - All files should have a proper [EOL][EOL]. This means one carriage return at the end of the final line of text files.
-- Otherwise, watch out &nbsp;⚠️&nbsp; for trailing spaces, extra blank lines, extra spaces, and spaces in blank lines.
+  Otherwise, watch out &nbsp;⚠️&nbsp; for trailing spaces, extra blank lines, extra spaces, and spaces in blank lines.
 - Continuous Integration is going to run **a lot** of checks. Try to understand & fix any failures.
 
-<br>
-  <details>
-    <summary>⚠️&nbsp;&nbsp;<b><em>Pre-Commit Checklist</em></b>&nbsp;⚠️</summary>
-    <br>
-    <table>
-    <td>
-    <br>
-
- - [ ]  &nbsp;Update & rebase your branch with any (recent) upstream changes.
- - [ ]  &nbsp;Spell and grammar check all prose changes.
- - [ ]  &nbsp;Run [Prettier](https://prettier.io/) on all markdown and JSON files.
-     - (_Optionally_) run [yapf](https://github.com/google/yapf) ([_yapf config_](https://github.com/exercism/python/blob/main/.style.yapf)) to help format your code.
- - [ ]  &nbsp;Run [flake8](http://flake8.pycqa.org/) with [_flake8 config_](https://github.com/exercism/python/blob/main/.flake8) to check general code style standards.
- - [ ] &nbsp; Run [pylint](https://pylint.pycqa.org/en/v2.11.1/user_guide/index.html) with [_pylint config_](https://github.com/exercism/python/blob/main/pylintrc) to check extended code style standards.
- - [ ]  &nbsp;Use pytest or the [python-track-test-runner](https://github.com/exercism/python-test-runner) to test any changed `example.py`/`exemplar.py`files
- &nbsp;against their associated test files.
- - [ ]  &nbsp;Similarly, use [pytest](https://docs.pytest.org/en/6.2.x/contents.html) or
-         the [python-track-test-runner](https://github.com/exercism/python-test-runner) to test any changed _**test**_ files.
-     - Check that tests **fail** properly, as well as succeed.
-     &nbsp;(_**e.g.**, make some tests fail on purpose to "test the tests" & failure messages_).
- - [ ]  &nbsp;Double-check all files for proper EOL.
- - [ ]  &nbsp;[Regenerate](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#generating-practice-exercise-documents) exercise documents when you modified or created a `hints.md` file for a practice exercise.
- - [ ]  &nbsp;[Regenerate the test file](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#auto-generated-test-files-and-test-templates) if you modified or created a `JinJa2` template file for a practice exercise.
-     -  Run the generated test file result against its `example.py`.
- - [ ]  &nbsp;Run [`configlet-lint`](https://github.com/exercism/configlet#configlet-lint) if the track [config.json](https://github.com/exercism/docs/blob/main/building/tracks/config-json.md), or any other exercise `config.json` has been modified.
-
-</td>
-</table>
-</details>
-<br>
 
 <img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercism/logo-big-bordered.png">
 <p vertical-align="middle"><h2 id="prose-writing-style-and-standards">Prose Writing Style and Standards</h2></p>
@@ -202,6 +179,39 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
  </details>
  <br>
 
+<br>
+  <details>
+    <summary>⚠️&nbsp;&nbsp;<b><em>Pre-Commit Checklist</b>&nbsp⚠️ (click to expand)</em>️</summary>
+    <br>
+    <table>
+    <td>
+    <br>
+
+ - [ ]  &nbsp;Update & rebase your branch with any (recent) upstream changes.
+ - [ ]  &nbsp;Spell and grammar check all prose changes.
+ - [ ]  &nbsp;Run [Prettier](https://prettier.io/) on all markdown and JSON files.
+     - (_Optionally_) run [yapf](https://github.com/google/yapf) ([_yapf config_](https://github.com/exercism/python/blob/main/.style.yapf)) to help format your code.
+ - [ ]  &nbsp;Run [flake8](http://flake8.pycqa.org/) with [_flake8 config_](https://github.com/exercism/python/blob/main/.flake8) to check general code style standards.
+ - [ ] &nbsp; Run [pylint](https://pylint.pycqa.org/en/v2.11.1/user_guide/index.html) with [_pylint config_](https://github.com/exercism/python/blob/main/pylintrc) to check extended code style standards.
+ - [ ]  &nbsp;Use pytest or the [python-track-test-runner](https://github.com/exercism/python-test-runner) to test any changed `example.py`/`exemplar.py`files
+ &nbsp;against their associated test files.
+ - [ ]  &nbsp;Similarly, use [pytest](https://docs.pytest.org/en/6.2.x/contents.html) or
+         the [python-track-test-runner](https://github.com/exercism/python-test-runner) to test any changed _**test**_ files.
+     - Check that tests **fail** properly, as well as succeed.
+     &nbsp;(_**e.g.**, make some tests fail on purpose to "test the tests" & failure messages_).
+ - [ ]  &nbsp;Double-check all files for proper EOL.
+ - [ ]  &nbsp;[Regenerate](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#generating-practice-exercise-documents) exercise documents when you modified or created a `hints.md` file for a practice exercise.
+ - [ ]  &nbsp;[Regenerate the test file](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#auto-generated-test-files-and-test-templates) if you modified or created a `JinJa2` template file for a practice exercise.
+     -  Run the generated test file result against its `example.py`.
+ - [ ]  &nbsp;Run [`configlet-lint`](https://github.com/exercism/configlet#configlet-lint) if the track [config.json](https://github.com/exercism/docs/blob/main/building/tracks/config-json.md), or any other exercise `config.json` has been modified.
+
+</td>
+</table>
+</details>
+<br>
+
+
+
 If you have any questions or issues, don't hesitate to ask the maintainers -- they're always happy to help&nbsp;💛&nbsp;💙&nbsp;
 
 Some of our code is old and does not (yet) conform to all these standards.  
@@ -214,10 +224,11 @@ _**We know it, and trust us, we are working on fixing it.**_ But if you see &nbs
 
 <br>
 
-This track officially supports Python = `3.8`  
-The track `test runner`, `analyzer`, and `representer` run in docker on `python:3.9-slim`.
+This track officially supports Python = `3.9` and earlier (_but Python 2.x is [deprecated][python2-sunset]_)
+The track `test runner`, `analyzer`, and `representer` run in [docker][docker] on `python:3.9-slim`.
 
 -  All exercises should be written for compatibility with Python = `3.8` or `3.9`.
+-  While students and contributors can use Python `3.10`, features [new in `3.10`][new-in-3.10] are **not** supported.
 -  Version backward _incompatibility_ (*e.g* an exercise using a `3.8` or `3.9` **only** feature)  should be clearly noted in any exercise hits, links, introductions or other notes.
 
 -  Here is an example of how the Python documentation handles [version-tagged &nbsp;🏷&nbsp;][version-tagged-language-features] feature introduction.
@@ -456,3 +467,8 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 [version-tagged-language-features]: https://docs.python.org/3/library/stdtypes.html#dict.popitem
 [website-contributing-section]: https://exercism.org/docs/building
 [yapf]: https://github.com/google/yapf
+
+[new-in-3.10]: https://docs.python.org/3.10/whatsnew/3.10.html
+[python2-sunset]: https://www.python.org/doc/sunset-python-2/#:~:text=We%20have%20decided%20that%20January,as%20soon%20as%20you%20can.
+[docker]: https://www.docker.com/
+[closing-words]: https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
