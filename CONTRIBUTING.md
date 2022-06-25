@@ -43,15 +43,17 @@ Some defined roles in our community:  [Contributors][exercism-contributors] **|*
 
 
 <br>
+<br>
 
-<img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/accuulate.svg">
+
+<img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/accumulate.svg">
 <p vertical-align="middle"><h2>Did you find a bug?</h2></p>
 <br>
 
 It is not uncommon to discover typos, confusing directions, or incorrect implementations of certain tests or code examples.  Or you might have a great suggestion for a hint to aid students (&nbsp;💙 &nbsp;), see optimizations for exemplar or test code, find missing test cases to add, or want to correct factual and/or logical errors.  Or maybe you have a great idea for an exercise or feature (❗&nbsp;).
 
 _**Our track is always a work in progress!**_  
-Please&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what you have found/suggest.
+Please&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what you have found/suggest.
 
 <br>
 
@@ -66,8 +68,8 @@ Please&nbsp;📛&nbsp;[ Open an issue ][open-an-issue]📛&nbsp;, and let us kno
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Contributions from our [help wanted][help-wanted] issue list,  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Larger (_and previously agreed-upon_) contributions from recent & regular (_within the last 6 months_) contributors.
 
-When in doubt,&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;. We will happily discuss your proposed change.  
-🐍 &nbsp;_But we should talk before you take a whole lot of time or energy implementing anything._
+When in doubt,&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;.
+We will happily discuss your proposed change...but we should talk before you take a whole lot of time or energy implementing anything. 🐍
 
 <br>
 <img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/hello-world.svg">
@@ -90,7 +92,7 @@ Issues, requests and PRs in the repo are reviewed as soon as is practical/possib
   Otherwise, watch out &nbsp;⚠️&nbsp; for trailing spaces, extra blank lines, extra spaces, and spaces in blank lines.
 - Continuous Integration is going to run **a lot** of checks. Try to understand & fix any failures.
 
-
+<br>
 <img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercism/logo-big-bordered.png">
 <p vertical-align="middle"><h2 id="prose-writing-style-and-standards">Prose Writing Style and Standards</h2></p>
 
