@@ -19,21 +19,23 @@ This repo holds all the instructions, tests, code, & support files for Python *e
 
 Exercises are grouped into **concept** exercises which teach the [Python syllabus][python-syllabus], and **practice** exercises, which are unlocked by progressing in the syllabus tree &nbsp;🌴 &nbsp;. Concept exercises are constrained to a small set of language or syntax features. Practice exercises are open-ended, and can be used to practice concepts learned, try out new techniques, and _play_.  These two exercise groupings can be found in the track [config.json][config-json], and under the `python/exercises` directory.
 
-<br>
-
-<img align="left" width="100" height="90" src="https://github.com/exercism/website-icons/blob/main/exercism/logo-big-bordered.png">
-
-🌟🌟&nbsp; If you have not already done so, please take a moment to read our [Code of Conduct][exercism-code-of-conduct].&nbsp;🌟🌟&nbsp;  
+If you have not already done so, please take a moment to read our 🌟🌟&nbsp; [Code of Conduct][exercism-code-of-conduct].&nbsp;🌟🌟&nbsp;  
 It might also be helpful to look at [Being a Good Community Member][being-a-good-community-member] & [The words that we use][the-words-that-we-use], and [Pull Requests][prs].
 
 Some defined roles in our community:  [Contributors][exercism-contributors] **|** [Mentors][exercism-mentors] **|** [Maintainers][exercism-track-maintainers]  **|** [Admins][exercism-admins]
 
 <br>
-<img align="left" width="85" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/word-search.svg">
+<img align="left" width="85" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/building-telemetry.svg">
+<p vertical-align="middle"><h2>Want to jump directly to general specifications & detail?</h2></p>
+<br>
 
-✨&nbsp;🦄&nbsp; _**Want to jump directly into Exercism specifications & detail?**_  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Structure][exercism-track-structure] **|** [Tasks][exercism-tasks] **|** [Concepts][exercism-concepts] **|** [Concept Exercises][concept-exercises] **|** [Practice Exercises][practice-exercises] **|** [Presentation][exercise-presentation]  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Writing Style Guide][exercism-writing-style] **|** [Markdown Specification][exercism-markdown-specification] (_&nbsp;✨ &nbsp; versions available in [contributing][website-contributing-section] on [exercism(dot)org][exercism-website]._)
+ **On GitHub :octocat:: ** [Track structure][exercism-track-structure] **|** [Concepts][exercism-concepts] **|** [Concept Exercises][concept-exercises] **|** [Practice Exercises][practice-exercises]  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Presentation][exercise-presentation]  **|** [Writing Style Guide][exercism-writing-style] **|** [Markdown Specification][exercism-markdown-specification] **|** [Tasks][exercism-tasks] **|** [Reputation][exercism-reputation]
+
+<br>
+
+🌐&nbsp;[Track structure][web-track-structure] **|** [Concepts][web-concepts] **|** [Concept Exercises][web-concept-exercises] **|** [Practice Exercises][web-practice-exercises]  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Presentation][web-exercise-presentation] **|** [Writing Style Guide][web-writing-style] **|** [Markdown Specification][web-markdown-specification] **|** [Tasks][web-tasks] **|** [Reputation][web-reputation]
 
 <br>
 <img align="left" width="85" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/robot-name.svg">
@@ -50,7 +52,7 @@ Some defined roles in our community:  [Contributors][exercism-contributors] **|*
 <p vertical-align="middle"><h2>Did you find a bug?</h2></p>
 <br>
 
-It is not uncommon to discover typos, confusing directions, or incorrect implementations of certain tests or code examples.  Or you might have a great suggestion for a hint to aid students (&nbsp;💙 &nbsp;), see optimizations for exemplar or test code, find missing test cases to add, or want to correct factual and/or logical errors.  Or maybe you have a great idea for an exercise or feature (❗&nbsp;).
+It is not uncommon to discover typos, confusing directions, or incorrect implementations of certain tests or code examples.  Or you might have a great suggestion for a hint to aid students (&nbsp;💙 &nbsp;), see optimizations for exemplar or test code, find missing test cases to add, or want to correct factual and/or logical errors.  Or maybe you have a great idea for an exercise or feature (🎉&nbsp;).
 
 _**Our track is always a work in progress!**_  
 Please&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what you have found/suggest.
@@ -61,15 +63,12 @@ Please&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;, and let us know what
 <p vertical-align="middle"><h2>Did you write a patch that fixes a bug?</h2></p>
 <br>
 
- 💛 💙&nbsp; **We Warmly Welcome Pull Requests that are:**
+**We Warmly 💛 💙 Welcome Pull Requests that are:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1️⃣  &nbsp;&nbsp;&nbsp; Small, contained fixes for typos/grammar/punctuation/code syntax on [one] exercise,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2️⃣&nbsp;&nbsp;&nbsp;&nbsp; Medium changes that have been agreed/discussed via a filed issue,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Contributions from our [help wanted][help-wanted] issue list,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Larger (_and previously agreed-upon_) contributions from recent & regular (_within the last 6 months_) contributors.
-
-When in doubt,&nbsp;📛[ Open an issue ][open-an-issue]📛&nbsp;.
-We will happily discuss your proposed change...but we should talk before you take a whole lot of time or energy implementing anything. 🐍
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1️⃣ &nbsp;&nbsp;&nbsp;&nbsp; Small, contained fixes for typos/grammar/punctuation/code syntax on [one] exercise,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2️⃣ &nbsp;&nbsp;&nbsp;&nbsp; Medium changes that have been agreed/discussed via a filed issue,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Contributions from our [help wanted][help-wanted] issue list,  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4️⃣ &nbsp;&nbsp;&nbsp;&nbsp;Larger (_and previously agreed-upon_) contributions from recent & regular (_within the last 6 months_) contributors.
 
 <br>
 <img align="left" width="90" height="80" src="https://github.com/exercism/website-icons/blob/main/exercises/hello-world.svg">
@@ -83,13 +82,10 @@ Please make sure to have a quick review of our Exercism [Pull Requests][prs] doc
 The Python track maintainers are happy to review your work and help troubleshoot with you.&nbsp;💛&nbsp;💙&nbsp;
 Issues, requests and PRs in the repo are reviewed as soon as is practical/possible. Remember that those responding may be in a different timezone or tied up with other tasks, so **please wait at least 72 hours before pinging.**
 
-- Pull Requests should be focused around a single exercise, issue, or change, unless you've discussed something different ahead of time with maintainers.
-- PR titles & descriptions should make clear **what** has changed and **why**, and [should link][closing-words] &nbsp;🔗&nbsp; to any related issues the PR addresses.
-- Python code should follow the standards found in [PEP8][PEP8] (["For Humans" version here][pep8-for-humans]).
-- If you need help, comment in the PR/issue.&nbsp; 🙋🏽‍♀️ &nbsp;
-- If you would like in-progress feedback/discussion, please mark your Pull Request as a **`[draft]`**. Add a note about any areas you would like reviewers to focus on.
-- All files should have a proper [EOL][EOL]. This means one carriage return at the end of the final line of text files.
-  Otherwise, watch out &nbsp;⚠️&nbsp; for trailing spaces, extra blank lines, extra spaces, and spaces in blank lines.
+- PRs should focus on a single exercise, issue, or change, unless you've discussed something different ahead of time with maintainers.
+- Titles & descriptions should make clear **what** has changed & **why**. Please [link][closing-words] &nbsp;🔗&nbsp;any related issues.
+- If you need help, comment in the PR or issue.&nbsp; 🙋🏽‍♀️ &nbsp;
+- If you would like in-progress feedback/discussion, please mark your PR as a **`[draft]`**. Add a note about any areas you would like reviewers to focus on.
 - Continuous Integration is going to run **a lot** of checks. Try to understand & fix any failures.
 
 <br>
@@ -126,6 +122,8 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
 <details>
     <summary>General Code Style Summary</summary>
 <br>
+<table>
+<td>
 
 - _**spaces**_, never `Tabs`
 - **4 space** indentation
@@ -144,10 +142,16 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
 - Two lines between `Classes`, one line between `functions`.  Other vertical whitespace as needed to help readability.
 - Always use an **`EOL`** to end a file.
 
+    </td>
+    </table>
+    <br>
  </details>
 
 <details>
-    <summary>Test File Style (<em>concept exercises</em>)<a name="Test-File_style"></summary>
+    <summary>Concept Exercise Test File Style (<em>click to expand</em>)<a name="Test-File_style"></summary>
+<br>
+<table>
+<td>
 <br>
 
 - [Unittest.TestCase][unittest] syntax, with [PyTest][pytest] as a test runner.
@@ -178,11 +182,12 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
   - Both linters are known to toss false-positives for some testing patterns.
   - Where necessary, deploy the [`#noqa`][flake8-noqa] or [`#pylint disable=<check-name>`][pylint-disable-check] comments to suppress false-positive warnings.   - See **line 16** of [Guido's Gorgeous Lasagna][guidos-gorgeous-lasagna-testfile] test file for an example of an override.
 
+    </td>
+    </table>
+    <br>
  </details>
  <br>
-
-<br>
-  <details>
+ <details>
     <summary>⚠️&nbsp;&nbsp;<b><em>Pre-Commit Checklist</b>&nbsp⚠️ (click to expand)</em>️</summary>
     <br>
     <table>
@@ -201,23 +206,22 @@ Our documents use [Markdown][markdown-language], with certain [alterations][exer
          the [python-track-test-runner](https://github.com/exercism/python-test-runner) to test any changed _**test**_ files.
      - Check that tests **fail** properly, as well as succeed.
      &nbsp;(_**e.g.**, make some tests fail on purpose to "test the tests" & failure messages_).
- - [ ]  &nbsp;Double-check all files for proper EOL.
+ - [ ]  &nbsp;Double-check all files for proper [EOL][eol].
  - [ ]  &nbsp;[Regenerate](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#generating-practice-exercise-documents) exercise documents when you modified or created a `hints.md` file for a practice exercise.
  - [ ]  &nbsp;[Regenerate the test file](https://github.com/exercism/python/blob/main/CONTRIBUTING.md#auto-generated-test-files-and-test-templates) if you modified or created a `JinJa2` template file for a practice exercise.
      -  Run the generated test file result against its `example.py`.
  - [ ]  &nbsp;Run [`configlet-lint`](https://github.com/exercism/configlet#configlet-lint) if the track [config.json](https://github.com/exercism/docs/blob/main/building/tracks/config-json.md), or any other exercise `config.json` has been modified.
 
-</td>
-</table>
+    </td>
+    </table>
 </details>
 <br>
-
 
 
 If you have any questions or issues, don't hesitate to ask the maintainers -- they're always happy to help&nbsp;💛&nbsp;💙&nbsp;
 
 Some of our code is old and does not (yet) conform to all these standards.  
-_**We know it, and trust us, we are working on fixing it.**_ But if you see &nbsp;👀&nbsp; something, &nbsp;👄&nbsp; say something. It will motivate us to fix it! 🌈
+_**We know it, and trust us, we are working on fixing it.**_ But if you see &nbsp;👀&nbsp; something, &nbsp;👄&nbsp; say something. It will motivate us to fix it! 🌈✨
 
  <br>
 
@@ -410,7 +414,6 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 <br>
 
 
-
 [.flake8]: https://github.com/exercism/python/blob/main/.flake8
 [.style.yapf]: https://github.com/exercism/python/blob/main/.style.yapf
 [EOL]: https://en.wikipedia.org/wiki/Newline
@@ -419,24 +422,26 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 [being-a-good-community-member]: https://github.com/exercism/docs/tree/main/community/good-member
 [card-games-testfile]: https://github.com/exercism/python/blob/main/exercises/concept/card-games/lists_test.py
 [cater-waiter]: https://github.com/exercism/python/tree/main/exercises/concept/cater-waiter
+[closing-words]: https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
 [concept-exercise-anatomy]: https://github.com/exercism/docs/blob/main/building/tracks/concept-exercises.md
 [concept-exercises]: https://github.com/exercism/docs/blob/main/building/tracks/concept-exercises.md
 [config-json]: https://github.com/exercism/javascript/blob/main/config.json
 [configlet-lint]: https://github.com/exercism/configlet#configlet-lint
 [configlet]: https://github.com/exercism/docs/blob/main/building/configlet/generating-documents.md
 [distinguishing-test-iterations]: https://docs.python.org/3/library/unittest.html#distinguishing-test-iterations-using-subtests
+[docker]: https://www.docker.com/
 [enumerate]: https://docs.python.org/3/library/functions.html#enumerate
 [exercise-config-json]: https://github.com/exercism/docs/blob/main/building/tracks/concept-exercises.md#full-example
 [exercise-presentation]: https://github.com/exercism/docs/blob/main/building/tracks/presentation.md
 [exercism-admins]: https://github.com/exercism/docs/blob/main/community/administrators.md
-[exercism-code-of-conduct]: https://exercism.org/docs/using/legal/code-of-conduct
+[exercism-code-of-conduct]: https://github.com/exercism/docs/blob/main/CODE_OF_CONDUCT.md
 [exercism-concepts]: https://github.com/exercism/docs/blob/main/building/tracks/concepts.md
 [exercism-contributors]: https://github.com/exercism/docs/blob/main/community/contributors.md
 [exercism-internal-linking]: https://github.com/exercism/docs/blob/main/building/markdown/internal-linking.md
 [exercism-markdown-specification]: https://github.com/exercism/docs/blob/main/building/markdown/markdown.md
 [exercism-markdown-widgets]: https://github.com/exercism/docs/blob/main/building/markdown/widgets.md
 [exercism-mentors]: https://github.com/exercism/docs/tree/main/mentoring
-[exercism-tasks]: https://exercism.org/docs/building/product/tasks
+[exercism-tasks]: https://github.com/exercism/docs/blob/main/building/product/tasks.md
 [exercism-track-maintainers]: https://github.com/exercism/docs/blob/main/community/maintainers.md
 [exercism-track-structure]: https://github.com/exercism/docs/tree/main/building/tracks
 [exercism-website]: https://exercism.org/
@@ -448,6 +453,7 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 [help-wanted]: https://github.com/exercism/python/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
 [implicit-line-joining]: https://google.github.io/styleguide/pyguide.html#32-line-length
 [markdown-language]: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+[new-in-3.10]: https://docs.python.org/3.10/whatsnew/3.10.html
 [open-an-issue]: https://github.com/exercism/python/issues/new/choose
 [pep8-for-humans]: https://pep8.org/
 [practice-exercise-anatomy]: https://github.com/exercism/docs/blob/main/building/tracks/practice-exercises.md
@@ -463,14 +469,20 @@ configlet generate <path/to/track> --spec-path path/to/problem/specifications
 [pytestmark]: https://docs.pytest.org/en/6.2.x/example/markers.html
 [python-syllabus]: https://exercism.org/tracks/python/concepts
 [python-track-test-generator]: https://github.com/exercism/python/blob/main/docs/GENERATOR.md
+[python2-sunset]: https://www.python.org/doc/sunset-python-2/#:~:text=We%20have%20decided%20that%20January,as%20soon%20as%20you%20can.
 [subtest]: https://docs.python.org/3/library/unittest.html#unittest.TestCase.subTest
 [the-words-that-we-use]: https://github.com/exercism/docs/blob/main/community/good-member/words.md
 [unittest]: https://docs.python.org/3/library/unittest.html#unittest.TestCase
 [version-tagged-language-features]: https://docs.python.org/3/library/stdtypes.html#dict.popitem
 [website-contributing-section]: https://exercism.org/docs/building
 [yapf]: https://github.com/google/yapf
-
-[new-in-3.10]: https://docs.python.org/3.10/whatsnew/3.10.html
-[python2-sunset]: https://www.python.org/doc/sunset-python-2/#:~:text=We%20have%20decided%20that%20January,as%20soon%20as%20you%20can.
-[docker]: https://www.docker.com/
-[closing-words]: https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
+[exercism-reputation]: https://github.com/exercism/docs/blob/main/using/product/reputation.md
+[web-track-structure]: https://exercism.org/docs/building/tracks
+[web-concepts]: https://exercism.org/docs/building/tracks/concepts
+[web-concept-exercises]: https://exercism.org/docs/building/tracks/concept-exercises
+[web-practice-exercises]: https://exercism.org/docs/building/tracks/practice-exercises
+[web-exercise-presentation]: https://exercism.org/docs/building/tracks/presentation
+[web-writing-style]: https://exercism.org/docs/building/markdown/style-guide
+[web-markdown-specification]: https://exercism.org/docs/building/markdown/markdown
+[web-tasks]: https://exercism.org/docs/building/product/tasks
+[web-reputation]: https://exercism.org/docs/using/product/reputation
